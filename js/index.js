@@ -11,7 +11,7 @@ function secondStart() {
     document.getElementById('second').innerHTML = second;
   } else {
     window.clearInterval(value);
-    document.getElementById('uyari').innerHTML = "Your period is over!";
+    document.getElementById('warning').innerHTML = "Your period is over!";
   }
 }
 var value = window.setInterval('secondStart()', 1000);
